@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# TypeScript
+dist/
+build/
+*.tsbuildinfo
+
+# PM2 logs
+pids
+logs
+*.log
+
+# Coverage (from tests)
+coverage/
+
+# Database
+*.sqlite
+*.db
+*.sql
